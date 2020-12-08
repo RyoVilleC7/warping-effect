@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warping Effect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <style>
+        *{font-family: 'Cormorant Garamond', serif;}
+        #container{
+            width: 100%;
+            height: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #cv{
+            z-index: 5;
+        }
+
+        #particleCanvas{
+            position: absolute;
+            width: 100%;
+            height: 1000px;
+        }
+
+        h2{
+            font-size: 40px;
+            letter-spacing: 5px;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Warping Effect</h1>
+        <div id="cv"></div>
+    </div>
+</body>
+</html>
